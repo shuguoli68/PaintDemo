@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <cn.sharelink.paintdemo.PaintView
+            android:id="@+id/activity_paint_pv"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/activity_paint"
+            style="@style/paint_menu_text_view_style"
+            android:text="画笔" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_color"
+            style="@style/paint_menu_text_view_style"
+            android:text="颜色" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_undo"
+            style="@style/paint_menu_text_view_style"
+            android:text="撤销" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_redo"
+            style="@style/paint_menu_text_view_style"
+            android:text="恢复" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_clear"
+            style="@style/paint_menu_text_view_style"
+            android:text="清空" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_eraser"
+            style="@style/paint_menu_text_view_style"
+            android:text="橡皮" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/activity_paint_save"
+            style="@style/paint_menu_text_view_style"
+            android:text="保存" />
+
+    </LinearLayout>
+</LinearLayout>
